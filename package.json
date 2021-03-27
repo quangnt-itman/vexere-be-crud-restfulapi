@@ -1,0 +1,33 @@
+{
+  "name": "vexere-be-crud-restfulapi",
+  "version": "1.0.0",
+  "description": "crud-RESTfulAPI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "start:watch": "nodemon .",
+    "start:local": "export NODE_ENV=local && nodemon .",
+    "start:staging": "export NODE_ENV=staging && nodemon .",
+    "start:local:win": "set NODE_ENV=local& nodemon .",
+    "start:staging:win": "set NODE_ENV=staging& nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangnt-itman/vexere-be-crud-restfulapi.git"
+  },
+  "author": "quangnt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangnt-itman/vexere-be-crud-restfulapi/issues"
+  },
+  "homepage": "https://github.com/quangnt-itman/vexere-be-crud-restfulapi#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "nodemon": "^2.0.7"
+  }
+}
